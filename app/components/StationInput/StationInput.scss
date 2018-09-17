@@ -1,0 +1,21 @@
+@import '../../assets/styles/colors';
+
+.station-input {
+  margin: 12px;
+}
+
+.station,
+.station-selected {
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.station {
+  color: $stationColor;
+}
+
+.station-selected {
+  color: $selectedStationColor;
+  background-color: $selectedStationBgColor;
+}

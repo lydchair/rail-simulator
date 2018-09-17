@@ -1,0 +1,19 @@
+.button {
+  height: 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+
+  &:hover {
+    background: grey;
+  }
+}
+
+.container {
+  padding: 4px;
+}

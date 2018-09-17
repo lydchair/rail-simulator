@@ -1,0 +1,12 @@
+@import '../../assets/styles/colors';
+
+.root {
+  padding: 40px;
+
+  .action-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+  }
+}

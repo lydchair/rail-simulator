@@ -1,0 +1,10 @@
+@import './colors';
+
+html,
+body {
+  font: 100% sans-serif;
+}
+
+body {
+  color: $colorBodyText;
+}
